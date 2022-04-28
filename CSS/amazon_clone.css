@@ -14,3 +14,20 @@ body{
     width: 100px;
     height: 93px;
 }
+
+/* creating ad section */
+#ad{
+    background-color: black;
+}
+#ad1{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+
+}
+
+#ad #ad1 img{
+    width: 450px;
+    height: 250px;
+
+}
