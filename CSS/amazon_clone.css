@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     padding: 0;
@@ -20,14 +22,29 @@ body{
     background-color: black;
 }
 #ad1{
-    display: flex;    
+    display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #ad #ad1 img{
     width: 450px;
     height: 250px;
+}
 
+/* product section */
+#products{
+    display: flex;
+    flex-direction: column;
+
+}
+#products .elecpro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#products .elecpro img{
+    width: 25%;
+    height: 300px;
 }
