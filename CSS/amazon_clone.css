@@ -1,4 +1,6 @@
-
+.pad{
+    padding: 10px;
+}
 
 body{
     margin: 0;
@@ -47,4 +49,19 @@ body{
 #products .elecpro img{
     width: 25%;
     height: 300px;
+}
+
+/* about section */
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px ;
+}
+#about form{
+    font-size: 1.5em;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 15px;
 }
